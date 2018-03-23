@@ -1,0 +1,26 @@
+#header {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 20px auto;
+}
+
+.subheader {
+    background-color: navy;
+    color: white;
+    padding: 5px 0px 10px 5px;
+    margin-bottom: 0;
+}
+
+#input-fields {
+    border: 1px solid navy;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: grey;
+    color: white;
+}
