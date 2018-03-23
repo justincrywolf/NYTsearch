@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New York Times Search App</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12" id="header">
+                <h1><span class="glyphicon glyphicon-list-alt" ></span> New York Times Search</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="subheader" style="width:100%"><span class="glyphicon glyphicon-th-list"></span> Search Parameters</p>
+                <div id="input-fields">
+                    <p>Search Term
+                    <input class="field" type="text" name="Search Term" id="search-term">
+                    </p>
+
+                    <p>Number of Records to Retrieve
+                    <input class="field" type="text" name="Records" id="rec-return">
+                    </p>
+
+                    <p>Start Year (optional)
+                    <input class="field" type="text" name="Start Year" id="start-year">
+                    </p>
+
+                    <p>End Year (optional)
+                    <input class="field" type="text" name="End Year" id="end-year">
+                    </p>
+                    <button class="btn" id="search"><span class="glyphicon glyphicon-search"></span> Search</button>
+                    <button class="btn" id="clear"><span class="glyphicon glyphicon-trash"></span> Clear Results</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="subheader" style="width:100%"><span class="glyphicon glyphicon-th"></span> Top Articles</p>
+                <div id="results">Results</div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
