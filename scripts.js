@@ -2,7 +2,6 @@
 // Create variables for search terms, number of records, start year, and end year
 // Drop down box for number of records
     // limit number of articles
-// addEventListener for text boxes
 // button for search and clear results
 
 // Do preliminary research on the [API](http://developer.nytimes.com/article_search_v2.json).
@@ -29,4 +28,6 @@ $.ajax({
 
 console.log(queryURL);
 console.log(response);
+
+if ()
   });
